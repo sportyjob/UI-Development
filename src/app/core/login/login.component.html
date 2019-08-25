@@ -1,1 +1,48 @@
-<p>login works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <form autocomplete="off">
+            <div class="well center-block">
+                <div class="well-header">
+                    <h3 class="text-center text-success"> Log in to {{configureData.projectTitleOnPageHeaders}} </h3>
+                    <hr>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <i class="glyphicon glyphicon-user"></i>
+                                </div>
+                                <input type="text" placeholder="First Name" name="txtfname" class="form-control">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <i class="glyphicon glyphicon-lock"></i>
+                                </div>
+                                <input type="password" minlength="8" maxlength="20" placeholder="Password"
+                                    name="txtpass" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row widget">
+                    <div class="col-md-6 col-xs-6 col-sm-6">
+                        <button class="btn btn-warning btn-block"> Submit </button>
+                    </div>
+                    <div class="col-md-6 col-xs-6 col-sm-6">
+                        <a href="#">Forget Password?</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

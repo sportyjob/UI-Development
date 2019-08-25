@@ -1,12 +1,17 @@
-body, html {
+/* body, html {
     width: 100%;
     height: 100%;
     font-size: 14px;
-}
+} */
 
-body, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
+}
+
+a {
+    /* font-size: 12px; */
+    text-decoration: none !important;
 }
 
 ::placeholder {
@@ -32,8 +37,6 @@ body, h1, h2, h3, h4, h5, h6 {
     /* Firefox 18- */
     color: #8e93a0 !important;
 }
-
-.topnav {}
 
 .navbar-default .navbar-nav>li>a.btn {
     padding: 8px 20px;
@@ -101,3 +104,21 @@ General Style
     max-width: 100%;
     height: auto;
 }
+
+/* Sign Up Page*/
+
+
+.well {
+    padding: 35px;
+    padding-left: 30px;
+    box-shadow: 0 0 10px #666666;
+    margin: 4% auto 0;
+    width: 450px;
+}
+
+.input-group-addon {
+    background-color: #ffde6c;
+    color: #d17d00;
+}
+
+/* End of Sign Up Page*/
