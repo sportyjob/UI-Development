@@ -1,0 +1,103 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+::placeholder {
+    color: #8e93a0 !important;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #8e93a0 !important;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #8e93a0 !important;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #8e93a0 !important;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #8e93a0 !important;
+}
+
+.topnav {}
+
+.navbar-default .navbar-nav>li>a.btn {
+    padding: 8px 20px;
+    margin: 6px 0;
+}
+
+.search-section {
+    padding-top: 100px;
+}
+
+.search-box .form-group {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.search-box .form-control {
+    height: 55px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.search-box .map-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 33px;
+    left: 10px;
+}
+
+.search-box .search-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 30px;
+    right: 10px;
+}
+
+.search-box p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #6c7386;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media(max-width:767px) {}
+
+/*************
+General Style    
+***********/
+
+.noMar {
+    margin: 0;
+}
+
+.text-maroon {
+    color: #be0000;
+}
+
+.img-responsive-only {
+    max-width: 100%;
+    height: auto;
+}
