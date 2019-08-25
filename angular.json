@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "jubin-sport": {
+    "jobin-sport": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/jubin-sport",
+            "outputPath": "dist/jobin-sport",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "jubin-sport:build"
+            "browserTarget": "jobin-sport:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "jubin-sport:build:production"
+              "browserTarget": "jobin-sport:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "jubin-sport:build"
+            "browserTarget": "jobin-sport:build"
           }
         },
         "test": {
@@ -106,15 +106,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "jubin-sport:serve"
+            "devServerTarget": "jobin-sport:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "jubin-sport:serve:production"
+              "devServerTarget": "jobin-sport:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "jubin-sport"
+  "defaultProject": "jobin-sport"
 }
